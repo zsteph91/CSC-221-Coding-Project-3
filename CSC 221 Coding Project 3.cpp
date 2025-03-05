@@ -7,10 +7,10 @@ using namespace std;
 
 int main()
 {
-    float amount;
-    float interest;
-    float rate;
-    float t;
+    float amount; // Interest earned
+    float principle; // Starting balance in account
+    float rate; // interest rate
+    float t; // * interest compounds/year
 
     return 0;
 }
