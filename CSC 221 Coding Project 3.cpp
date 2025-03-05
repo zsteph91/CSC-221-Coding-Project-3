@@ -4,21 +4,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// insert math library
 
 int main()
 {
-    float sugar;
-    float butter;
-    float flower;
-    int cookies;
-
-    sugar = 1.5;
-    butter = 1.00;
-    flower = 2.75;
-    cookies = 48;
-
-    cout << "It takes " << sugar << " cups of sugar, " << butter << " cup of butter, and " << flower
-        << " cups of flower to make " << cookies << " cookies." << endl;
+    // Display 2 random numbers, between 100 and 999, for user to solve before clicking enter to view the solution
     return 0;
 }
 
