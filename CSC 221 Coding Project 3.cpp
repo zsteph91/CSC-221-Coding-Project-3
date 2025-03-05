@@ -1,4 +1,4 @@
-// CSC 221 Coding Project 3.cpp : Program 1: Ingredient Adjuster
+// CSC 221 Coding Project 3.cpp : Program 2: Math Tutor
 //
 
 #include <iostream>
