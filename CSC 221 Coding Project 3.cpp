@@ -1,5 +1,4 @@
 // CSC 221 Coding Project 3.cpp : Program 1: Ingredient Adjuster
-//
 
 #include <iostream>
 #include <string>
