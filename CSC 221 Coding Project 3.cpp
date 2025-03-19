@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <random>
+#include <iomanip>
 using namespace std;
 // insert math library
 
@@ -19,10 +20,10 @@ int main()
     uniform_int_distribution <> dist(100, 999);
     num1 = dist(gen);
     num2 = dist(gen);
-    cout << num1 << " " << num2 << endl;
-    cout << "What is the sum of these two numbers? ";
-    cin >> answer;
-    cout << "The correct answer is: " << num1 + num2 << endl;
+    cout << setw(5) << num1 << endl << setw(2) << "+ " << setw(3) << num2 << endl;
+    cout << endl << "Calculate the sum. " << endl << "Press 'Enter' to view the correct answer." << endl;
+    cin.get();
+    cout << setw(5) << num1 + num2 << endl;
 
     return 0;
 }
