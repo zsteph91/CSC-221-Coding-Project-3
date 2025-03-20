@@ -8,15 +8,15 @@ using namespace std;
 
 int main()
 {
-    float amount; // Interest earned
-    float principal; // Starting balance in account
+    float amount; // total money in account after interest is earned
+    float principal; // starting balance in account
     float rate; // interest rate
-    float t; // * interest compounds/year
+    float t; // # of times interest compounds/year
     float interest; // interest earned/year
 
     cout << "What is the interest rate? (Leave off the '%' symbol): ";
     cin >> rate;
-    rate = rate / 100;
+    rate = rate / 100; // rate entered as percentage must be divided by 100
 
     cout << "How many times is this compounded? ";
     cin >> t;
